@@ -1,0 +1,32 @@
+# Python Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python Cache / Compiled
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# HuggingFace & Model Cache
+.cache/
+model_cache/
+
+# Raw CSV data (as requested to remove/ignore)
+*.csv
+data/raw/*.csv
+
+# Local run logs
+*.log
