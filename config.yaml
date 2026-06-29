@@ -1,0 +1,189 @@
+# =============================================================================
+# Ahoum Conversation Evaluation System — Central Configuration
+# =============================================================================
+
+project:
+  name: "Ahoum Conversation Evaluation System"
+  version: "1.0.0"
+  description: "Multi-facet conversation scoring benchmark using open-weight LLMs"
+  seed: 42
+  log_level: "INFO"
+
+# ---------------------------------------------------------------------------
+# Paths
+# ---------------------------------------------------------------------------
+paths:
+  raw_data:        "data/raw"
+  processed_data:  "data/processed"
+  examples:        "data/examples"
+  facets_csv:      "data/raw/facets_assignment.csv"
+  conversations:   "data/raw/generated_conversations.json"
+  preprocessed:    "data/processed/conversations_preprocessed.parquet"
+  scores:          "data/processed/scores.parquet"
+  facets_cleaned:  "data/processed/facets_cleaned.json"
+  sample_evals:    "data/examples/sample_evaluations_50.json"
+  cache_dir:       ".cache/model_cache"
+
+# ---------------------------------------------------------------------------
+# Facet Configuration
+# ---------------------------------------------------------------------------
+facets:
+  total: 300
+  categories:
+    linguistic_quality:
+      name: "Linguistic Quality"
+      count: 50
+      weight: 1.0
+      color: "#4C9BE8"
+    pragmatics:
+      name: "Pragmatics"
+      count: 50
+      weight: 1.0
+      color: "#7B68EE"
+    safety:
+      name: "Safety"
+      count: 50
+      weight: 1.2   # higher weight — safety is critical
+      color: "#E85252"
+    emotion_empathy:
+      name: "Emotion & Empathy"
+      count: 50
+      weight: 0.9
+      color: "#F0A500"
+    behavioral_traits:
+      name: "Behavioral Traits"
+      count: 50
+      weight: 0.85
+      color: "#3DBE6B"
+    intelligence_reasoning:
+      name: "Intelligence & Reasoning"
+      count: 50
+      weight: 0.95
+      color: "#BE3D9A"
+
+# ---------------------------------------------------------------------------
+# Scoring Configuration
+# ---------------------------------------------------------------------------
+scoring:
+  scale_min: 1
+  scale_max: 5
+  default_score: 3
+  default_confidence: 0.5
+  confidence_threshold: 0.6    # below this → use LLM augmentation
+  importance_threshold: 0.8    # above this → always use LLM
+  llm_weight: 0.6              # hybrid blending
+  feature_weight: 0.4          # hybrid blending
+  mode: "feature"              # options: "feature" | "llm" | "hybrid"
+  batch_size: 16
+  top_critical_facets: 50      # number of facets to always LLM-score
+  cache_results: true
+  max_new_tokens: 200
+  temperature: 0.1
+  repetition_penalty: 1.15
+
+# ---------------------------------------------------------------------------
+# Open-Weight LLM Configuration
+# ---------------------------------------------------------------------------
+model:
+  name: "mistralai/Mistral-7B-Instruct-v0.1"
+  alternatives:
+    - "meta-llama/Llama-2-7b-chat-hf"
+    - "Qwen/Qwen2-7B-Instruct"
+    - "mistralai/Mixtral-8x7B-Instruct-v0.1"
+  torch_dtype: "float16"
+  device_map: "auto"
+  load_in_8bit: false
+  load_in_4bit: false          # set to true for low-VRAM environments
+  max_length: 4096
+  trust_remote_code: true
+  hf_token: null               # set via env var HF_TOKEN
+
+# ---------------------------------------------------------------------------
+# Preprocessing Configuration
+# ---------------------------------------------------------------------------
+preprocessing:
+  lowercase: true
+  remove_extra_whitespace: true
+  handle_special_chars: true
+  language: "en"
+  tokenizer: "nltk"            # options: "nltk" | "spacy"
+  stopwords: false             # configurable
+  min_turn_length: 5           # characters
+  max_turn_length: 2000
+
+# ---------------------------------------------------------------------------
+# Feature Extraction
+# ---------------------------------------------------------------------------
+features:
+  enabled:
+    - lexical_diversity
+    - avg_word_length
+    - sentence_count
+    - avg_sentence_length
+    - question_count
+    - readability_score
+    - sentiment_polarity
+    - subjectivity_score
+    - politeness_markers
+    - formality_score
+    - uncertainty_markers
+    - negation_ratio
+    - entity_density
+    - pronoun_ratio
+    - coherence_score
+    - grammar_score
+    - safety_flags
+    - empathy_signals
+    - reasoning_markers
+    - turn_length_variance
+
+# ---------------------------------------------------------------------------
+# Data Generation
+# ---------------------------------------------------------------------------
+data_generation:
+  total_conversations: 300
+  domains:
+    customer_service:   50
+    ai_assistant:       50
+    technical_support:  50
+    emotional_support:  50
+    ecommerce:          50
+    educational:        50
+  quality_distribution:
+    high: 75
+    medium: 120
+    low: 60
+    edge_case: 45
+  min_turns: 4
+  max_turns: 20
+  seed: 42
+
+# ---------------------------------------------------------------------------
+# UI Configuration
+# ---------------------------------------------------------------------------
+ui:
+  title: "Ahoum Conversation Evaluation Dashboard"
+  theme: "dark"
+  max_display_facets: 50
+  chart_height: 400
+  heatmap_sample_size: 50
+  page_icon: "🧠"
+
+# ---------------------------------------------------------------------------
+# API Configuration
+# ---------------------------------------------------------------------------
+api:
+  host: "0.0.0.0"
+  port: 8080
+  workers: 4
+  max_conversations_per_request: 100
+  timeout: 300
+  cors_origins: ["*"]
+
+# ---------------------------------------------------------------------------
+# Testing
+# ---------------------------------------------------------------------------
+testing:
+  synthetic_conversations: 5
+  seed: 123
+  performance_threshold_seconds: 5.0
