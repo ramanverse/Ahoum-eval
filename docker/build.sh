@@ -25,13 +25,13 @@ case "$CMD" in
 
   build)
     log "Building ahoum-ui and ahoum-api images..."
-    docker compose -f "$ROOT/docker-compose.yml" build --parallel
+    docker compose -f "$SCRIPT_DIR/docker-compose.yml" build --parallel
     ok "Images built successfully"
     ;;
 
   up)
     log "Starting Ahoum services..."
-    docker compose -f "$ROOT/docker-compose.yml" up --build -d
+    docker compose -f "$SCRIPT_DIR/docker-compose.yml" up --build -d
     log "Waiting for services to be healthy..."
     sleep 5
 
@@ -57,7 +57,7 @@ case "$CMD" in
 
   down)
     log "Stopping Ahoum services..."
-    docker compose -f "$ROOT/docker-compose.yml" down
+    docker compose -f "$SCRIPT_DIR/docker-compose.yml" down
     ok "Services stopped"
     ;;
 
@@ -87,12 +87,12 @@ case "$CMD" in
     ;;
 
   logs)
-    docker compose -f "$ROOT/docker-compose.yml" logs -f
+    docker compose -f "$SCRIPT_DIR/docker-compose.yml" logs -f
     ;;
 
   clean)
     log "Removing containers, images, and volumes..."
-    docker compose -f "$ROOT/docker-compose.yml" down -v --rmi local
+    docker compose -f "$SCRIPT_DIR/docker-compose.yml" down -v --rmi local
     ok "Cleanup complete"
     ;;
 
