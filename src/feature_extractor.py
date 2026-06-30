@@ -428,6 +428,7 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("--input",  default="data/processed/conversations_preprocessed.parquet")
     p.add_argument("--output", default="data/processed/conversation_features.parquet")
+    p.add_argument("--output-csv", default="data/processed/conversation_features.csv")
     args = p.parse_args()
 
     df_in = pd.read_parquet(args.input)
@@ -435,4 +436,35 @@ if __name__ == "__main__":
     out = Path(args.output)
     out.parent.mkdir(parents=True, exist_ok=True)
     df_out.to_parquet(out, index=False)
-    print(f"✅ Features saved to {args.output}  shape={df_out.shape}")
+    print(f"✅ Turn-level features saved to {args.output}  shape={df_out.shape}")
+
+    # Aggregate to conversation-level (300 conversations)
+    numeric_cols = [
+        "lexical_diversity", "vocabulary_level", "avg_word_length",
+        "sentence_count", "avg_sentence_length", "readability_score",
+        "grammar_score", "imperative_ratio", "question_ratio",
+        "politeness_markers", "formality_score", "uncertainty_markers",
+        "negation_ratio", "sentiment_polarity", "subjectivity_score",
+        "coherence_score", "safety_flags", "empathy_signals",
+        "reasoning_markers", "first_person_ratio", "second_person_ratio",
+        "third_person_ratio", "entity_density", "turn_length_variance"
+    ]
+
+    agg_dict = {}
+    for col in numeric_cols:
+        if col in df_out.columns:
+            agg_dict[col] = "mean"
+
+    # Add metadata fields
+    metadata_cols = ["domain", "quality_level", "conv_num_turns", "conv_total_words", "conv_sentiment"]
+    for col in metadata_cols:
+        if col in df_out.columns:
+            agg_dict[col] = "first"
+
+    df_conv = df_out.groupby("conversation_id").agg(agg_dict).reset_index()
+
+    # Save as CSV
+    csv_out = Path(args.output_csv)
+    df_conv.to_csv(csv_out, index=False)
+    print(f"✅ Conversation-level features saved to {args.output_csv}  shape={df_conv.shape}")
+
