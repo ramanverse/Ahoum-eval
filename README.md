@@ -193,6 +193,23 @@ docker run -d -p 8501:8501 --name ahoum-ui ghcr.io/ramanverse/ahoum-eval-ui:late
 
 ---
 
+## ☁️ Streamlit Community Cloud Deployment
+
+You can deploy the Streamlit Dashboard UI for free on [Streamlit Community Cloud](https://share.streamlit.io/).
+
+### Steps to Deploy:
+1. **Fork or Push** this repository to your own GitHub account.
+2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io/) and click **"New app"**.
+3. Select your repository, branch (`main`), and set the main file path to:
+   ```
+   ui/app.py
+   ```
+4. Under **"Advanced settings..."**, add any environment variables (like `HF_TOKEN`) if you plan to use LLM/hybrid modes in production.
+5. Click **"Deploy!"** — Streamlit will automatically install dependencies from `requirements.txt`, read theme configurations from `.streamlit/config.toml`, and make your dashboard live at a custom URL.
+
+---
+
+
 ## 📊 API Reference
 
 The FastAPI service runs on port `8080` (or `80` if using the Nginx proxy profile).
