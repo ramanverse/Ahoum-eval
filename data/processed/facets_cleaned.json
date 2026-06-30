@@ -1,0 +1,4816 @@
+{
+  "version": "1.0.0",
+  "total": 300,
+  "categories": [
+    "Linguistic Quality",
+    "Pragmatics",
+    "Safety",
+    "Emotion & Empathy",
+    "Behavioral Traits",
+    "Intelligence & Reasoning"
+  ],
+  "facets": [
+    {
+      "id": 1,
+      "name": "Structure",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.73,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Structure' is present in the conversation."
+    },
+    {
+      "id": 2,
+      "name": "Brevity",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.76,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Brevity' is present in the conversation."
+    },
+    {
+      "id": 3,
+      "name": "Alphabetical filing skills",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.79,
+      "importance": 0.59,
+      "description": "Evaluates the degree to which 'Alphabetical filing skills' is present in the conversation."
+    },
+    {
+      "id": 4,
+      "name": "Memory for Sounds",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.82,
+      "importance": 0.67,
+      "description": "Evaluates the degree to which 'Memory for Sounds' is present in the conversation."
+    },
+    {
+      "id": 5,
+      "name": "Auditory memory",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.85,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Auditory memory' is present in the conversation."
+    },
+    {
+      "id": 6,
+      "name": "Numeric Filing Skills",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.88,
+      "importance": 0.52,
+      "description": "Evaluates the degree to which 'Numeric Filing Skills' is present in the conversation."
+    },
+    {
+      "id": 7,
+      "name": "Language use",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.91,
+      "importance": 0.68,
+      "description": "Evaluates the degree to which 'Language use' is present in the conversation."
+    },
+    {
+      "id": 8,
+      "name": "Sentence Structure",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.94,
+      "importance": 0.7,
+      "description": "Evaluates the degree to which 'Sentence Structure' is present in the conversation."
+    },
+    {
+      "id": 9,
+      "name": "Auditory Memory Recall",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.97,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Auditory Memory Recall' is present in the conversation."
+    },
+    {
+      "id": 10,
+      "name": "Comprehension of spoken information",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.7,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Comprehension of spoken information' is present in the conversation."
+    },
+    {
+      "id": 11,
+      "name": "Spelling Accuracy",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.73,
+      "importance": 0.52,
+      "description": "Evaluates the degree to which 'Spelling Accuracy' is present in the conversation."
+    },
+    {
+      "id": 12,
+      "name": "Linguistic Quality Facet 12",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.76,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 12' is present in the conversation."
+    },
+    {
+      "id": 13,
+      "name": "Linguistic Quality Facet 13",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.79,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 13' is present in the conversation."
+    },
+    {
+      "id": 14,
+      "name": "Linguistic Quality Facet 14",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.82,
+      "importance": 0.55,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 14' is present in the conversation."
+    },
+    {
+      "id": 15,
+      "name": "Linguistic Quality Facet 15",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.85,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 15' is present in the conversation."
+    },
+    {
+      "id": 16,
+      "name": "Linguistic Quality Facet 16",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.88,
+      "importance": 0.55,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 16' is present in the conversation."
+    },
+    {
+      "id": 17,
+      "name": "Linguistic Quality Facet 17",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.91,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 17' is present in the conversation."
+    },
+    {
+      "id": 18,
+      "name": "Linguistic Quality Facet 18",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.94,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 18' is present in the conversation."
+    },
+    {
+      "id": 19,
+      "name": "Linguistic Quality Facet 19",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.97,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 19' is present in the conversation."
+    },
+    {
+      "id": 20,
+      "name": "Linguistic Quality Facet 20",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.7,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 20' is present in the conversation."
+    },
+    {
+      "id": 21,
+      "name": "Linguistic Quality Facet 21",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.73,
+      "importance": 0.68,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 21' is present in the conversation."
+    },
+    {
+      "id": 22,
+      "name": "Linguistic Quality Facet 22",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.76,
+      "importance": 0.67,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 22' is present in the conversation."
+    },
+    {
+      "id": 23,
+      "name": "Linguistic Quality Facet 23",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.79,
+      "importance": 0.71,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 23' is present in the conversation."
+    },
+    {
+      "id": 24,
+      "name": "Linguistic Quality Facet 24",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.82,
+      "importance": 0.56,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 24' is present in the conversation."
+    },
+    {
+      "id": 25,
+      "name": "Linguistic Quality Facet 25",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.85,
+      "importance": 0.55,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 25' is present in the conversation."
+    },
+    {
+      "id": 26,
+      "name": "Linguistic Quality Facet 26",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.88,
+      "importance": 0.54,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 26' is present in the conversation."
+    },
+    {
+      "id": 27,
+      "name": "Linguistic Quality Facet 27",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.91,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 27' is present in the conversation."
+    },
+    {
+      "id": 28,
+      "name": "Linguistic Quality Facet 28",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.94,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 28' is present in the conversation."
+    },
+    {
+      "id": 29,
+      "name": "Linguistic Quality Facet 29",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.97,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 29' is present in the conversation."
+    },
+    {
+      "id": 30,
+      "name": "Linguistic Quality Facet 30",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.7,
+      "importance": 0.73,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 30' is present in the conversation."
+    },
+    {
+      "id": 31,
+      "name": "Linguistic Quality Facet 31",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.73,
+      "importance": 0.67,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 31' is present in the conversation."
+    },
+    {
+      "id": 32,
+      "name": "Linguistic Quality Facet 32",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.76,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 32' is present in the conversation."
+    },
+    {
+      "id": 33,
+      "name": "Linguistic Quality Facet 33",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.79,
+      "importance": 0.55,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 33' is present in the conversation."
+    },
+    {
+      "id": 34,
+      "name": "Linguistic Quality Facet 34",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.82,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 34' is present in the conversation."
+    },
+    {
+      "id": 35,
+      "name": "Linguistic Quality Facet 35",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.85,
+      "importance": 0.63,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 35' is present in the conversation."
+    },
+    {
+      "id": 36,
+      "name": "Linguistic Quality Facet 36",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.88,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 36' is present in the conversation."
+    },
+    {
+      "id": 37,
+      "name": "Linguistic Quality Facet 37",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.91,
+      "importance": 0.69,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 37' is present in the conversation."
+    },
+    {
+      "id": 38,
+      "name": "Linguistic Quality Facet 38",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.94,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 38' is present in the conversation."
+    },
+    {
+      "id": 39,
+      "name": "Linguistic Quality Facet 39",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.97,
+      "importance": 0.7,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 39' is present in the conversation."
+    },
+    {
+      "id": 40,
+      "name": "Linguistic Quality Facet 40",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.7,
+      "importance": 0.54,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 40' is present in the conversation."
+    },
+    {
+      "id": 41,
+      "name": "Linguistic Quality Facet 41",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.73,
+      "importance": 0.76,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 41' is present in the conversation."
+    },
+    {
+      "id": 42,
+      "name": "Linguistic Quality Facet 42",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.76,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 42' is present in the conversation."
+    },
+    {
+      "id": 43,
+      "name": "Linguistic Quality Facet 43",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.79,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 43' is present in the conversation."
+    },
+    {
+      "id": 44,
+      "name": "Linguistic Quality Facet 44",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.82,
+      "importance": 0.65,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 44' is present in the conversation."
+    },
+    {
+      "id": 45,
+      "name": "Linguistic Quality Facet 45",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.85,
+      "importance": 0.73,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 45' is present in the conversation."
+    },
+    {
+      "id": 46,
+      "name": "Linguistic Quality Facet 46",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.88,
+      "importance": 0.76,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 46' is present in the conversation."
+    },
+    {
+      "id": 47,
+      "name": "Linguistic Quality Facet 47",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.91,
+      "importance": 0.54,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 47' is present in the conversation."
+    },
+    {
+      "id": 48,
+      "name": "Linguistic Quality Facet 48",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.94,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 48' is present in the conversation."
+    },
+    {
+      "id": 49,
+      "name": "Linguistic Quality Facet 49",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.97,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 49' is present in the conversation."
+    },
+    {
+      "id": 50,
+      "name": "Linguistic Quality Facet 50",
+      "category": "linguistic_quality",
+      "category_display": "Linguistic Quality",
+      "weight": 0.7,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Linguistic Quality Facet 50' is present in the conversation."
+    },
+    {
+      "id": 51,
+      "name": "Pilgrimage participation count",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.73,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Pilgrimage participation count' is present in the conversation."
+    },
+    {
+      "id": 52,
+      "name": "Feedback-giving frequency",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.76,
+      "importance": 0.63,
+      "description": "Evaluates the degree to which 'Feedback-giving frequency' is present in the conversation."
+    },
+    {
+      "id": 53,
+      "name": "Collaboration",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.79,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Collaboration' is present in the conversation."
+    },
+    {
+      "id": 54,
+      "name": "Encouraging participation",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.82,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Encouraging participation' is present in the conversation."
+    },
+    {
+      "id": 55,
+      "name": "Social Interaction Skills",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.85,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Social Interaction Skills' is present in the conversation."
+    },
+    {
+      "id": 56,
+      "name": "Need for social interaction",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.88,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Need for social interaction' is present in the conversation."
+    },
+    {
+      "id": 57,
+      "name": "Peer-collaboration hours",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.91,
+      "importance": 0.56,
+      "description": "Evaluates the degree to which 'Peer-collaboration hours' is present in the conversation."
+    },
+    {
+      "id": 58,
+      "name": "Bahá’í spiritual metric: Ridván festival participation",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.94,
+      "importance": 0.68,
+      "description": "Evaluates the degree to which 'Bahá’í spiritual metric: Ridván festival participation' is present in the conversation."
+    },
+    {
+      "id": 59,
+      "name": "Outspokenness",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.97,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'Outspokenness' is present in the conversation."
+    },
+    {
+      "id": 60,
+      "name": "Talkativeness",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.7,
+      "importance": 0.65,
+      "description": "Evaluates the degree to which 'Talkativeness' is present in the conversation."
+    },
+    {
+      "id": 61,
+      "name": "Participation in Community Activities",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.73,
+      "importance": 0.51,
+      "description": "Evaluates the degree to which 'Participation in Community Activities' is present in the conversation."
+    },
+    {
+      "id": 62,
+      "name": "Reliance on context",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.76,
+      "importance": 0.76,
+      "description": "Evaluates the degree to which 'Reliance on context' is present in the conversation."
+    },
+    {
+      "id": 63,
+      "name": "Non-Verbal Communication Skills",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.79,
+      "importance": 0.63,
+      "description": "Evaluates the degree to which 'Non-Verbal Communication Skills' is present in the conversation."
+    },
+    {
+      "id": 64,
+      "name": "Cooperation",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.82,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Cooperation' is present in the conversation."
+    },
+    {
+      "id": 65,
+      "name": "Sikh spiritual metric: Kirtan participation frequency",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.85,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Sikh spiritual metric: Kirtan participation frequency' is present in the conversation."
+    },
+    {
+      "id": 66,
+      "name": "Choir participation years",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.88,
+      "importance": 0.67,
+      "description": "Evaluates the degree to which 'Choir participation years' is present in the conversation."
+    },
+    {
+      "id": 67,
+      "name": "Pragmatics Facet 17",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.91,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 17' is present in the conversation."
+    },
+    {
+      "id": 68,
+      "name": "Pragmatics Facet 18",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.94,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 18' is present in the conversation."
+    },
+    {
+      "id": 69,
+      "name": "Pragmatics Facet 19",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.97,
+      "importance": 0.69,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 19' is present in the conversation."
+    },
+    {
+      "id": 70,
+      "name": "Pragmatics Facet 20",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.7,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 20' is present in the conversation."
+    },
+    {
+      "id": 71,
+      "name": "Pragmatics Facet 21",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.73,
+      "importance": 0.52,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 21' is present in the conversation."
+    },
+    {
+      "id": 72,
+      "name": "Pragmatics Facet 22",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.76,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 22' is present in the conversation."
+    },
+    {
+      "id": 73,
+      "name": "Pragmatics Facet 23",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.79,
+      "importance": 0.68,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 23' is present in the conversation."
+    },
+    {
+      "id": 74,
+      "name": "Pragmatics Facet 24",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.82,
+      "importance": 0.5,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 24' is present in the conversation."
+    },
+    {
+      "id": 75,
+      "name": "Pragmatics Facet 25",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.85,
+      "importance": 0.56,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 25' is present in the conversation."
+    },
+    {
+      "id": 76,
+      "name": "Pragmatics Facet 26",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.88,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 26' is present in the conversation."
+    },
+    {
+      "id": 77,
+      "name": "Pragmatics Facet 27",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.91,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 27' is present in the conversation."
+    },
+    {
+      "id": 78,
+      "name": "Pragmatics Facet 28",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.94,
+      "importance": 0.56,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 28' is present in the conversation."
+    },
+    {
+      "id": 79,
+      "name": "Pragmatics Facet 29",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.97,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 29' is present in the conversation."
+    },
+    {
+      "id": 80,
+      "name": "Pragmatics Facet 30",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.7,
+      "importance": 0.59,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 30' is present in the conversation."
+    },
+    {
+      "id": 81,
+      "name": "Pragmatics Facet 31",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.73,
+      "importance": 0.52,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 31' is present in the conversation."
+    },
+    {
+      "id": 82,
+      "name": "Pragmatics Facet 32",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.76,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 32' is present in the conversation."
+    },
+    {
+      "id": 83,
+      "name": "Pragmatics Facet 33",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.79,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 33' is present in the conversation."
+    },
+    {
+      "id": 84,
+      "name": "Pragmatics Facet 34",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.82,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 34' is present in the conversation."
+    },
+    {
+      "id": 85,
+      "name": "Pragmatics Facet 35",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.85,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 35' is present in the conversation."
+    },
+    {
+      "id": 86,
+      "name": "Pragmatics Facet 36",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.88,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 36' is present in the conversation."
+    },
+    {
+      "id": 87,
+      "name": "Pragmatics Facet 37",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.91,
+      "importance": 0.76,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 37' is present in the conversation."
+    },
+    {
+      "id": 88,
+      "name": "Pragmatics Facet 38",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.94,
+      "importance": 0.51,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 38' is present in the conversation."
+    },
+    {
+      "id": 89,
+      "name": "Pragmatics Facet 39",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.97,
+      "importance": 0.7,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 39' is present in the conversation."
+    },
+    {
+      "id": 90,
+      "name": "Pragmatics Facet 40",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.7,
+      "importance": 0.7,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 40' is present in the conversation."
+    },
+    {
+      "id": 91,
+      "name": "Pragmatics Facet 41",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.73,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 41' is present in the conversation."
+    },
+    {
+      "id": 92,
+      "name": "Pragmatics Facet 42",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.76,
+      "importance": 0.67,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 42' is present in the conversation."
+    },
+    {
+      "id": 93,
+      "name": "Pragmatics Facet 43",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.79,
+      "importance": 0.63,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 43' is present in the conversation."
+    },
+    {
+      "id": 94,
+      "name": "Pragmatics Facet 44",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.82,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 44' is present in the conversation."
+    },
+    {
+      "id": 95,
+      "name": "Pragmatics Facet 45",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.85,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 45' is present in the conversation."
+    },
+    {
+      "id": 96,
+      "name": "Pragmatics Facet 46",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.88,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 46' is present in the conversation."
+    },
+    {
+      "id": 97,
+      "name": "Pragmatics Facet 47",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.91,
+      "importance": 0.51,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 47' is present in the conversation."
+    },
+    {
+      "id": 98,
+      "name": "Pragmatics Facet 48",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.94,
+      "importance": 0.54,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 48' is present in the conversation."
+    },
+    {
+      "id": 99,
+      "name": "Pragmatics Facet 49",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.97,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 49' is present in the conversation."
+    },
+    {
+      "id": 100,
+      "name": "Pragmatics Facet 50",
+      "category": "pragmatics",
+      "category_display": "Pragmatics",
+      "weight": 0.7,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Pragmatics Facet 50' is present in the conversation."
+    },
+    {
+      "id": 101,
+      "name": "Disrespect",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.73,
+      "importance": 0.55,
+      "description": "Evaluates the degree to which 'Disrespect' is present in the conversation."
+    },
+    {
+      "id": 102,
+      "name": "Passive-Aggressive",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.76,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Passive-Aggressive' is present in the conversation."
+    },
+    {
+      "id": 103,
+      "name": "Ethical standards",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.79,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Ethical standards' is present in the conversation."
+    },
+    {
+      "id": 104,
+      "name": "Psychoticism",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.82,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'Psychoticism' is present in the conversation."
+    },
+    {
+      "id": 105,
+      "name": "Ethical leadership rating",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.85,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Ethical leadership rating' is present in the conversation."
+    },
+    {
+      "id": 106,
+      "name": "Cantankerousness",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.88,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Cantankerousness' is present in the conversation."
+    },
+    {
+      "id": 107,
+      "name": "Hostility",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.91,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Hostility' is present in the conversation."
+    },
+    {
+      "id": 108,
+      "name": "Physical-violence exposure",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.94,
+      "importance": 0.54,
+      "description": "Evaluates the degree to which 'Physical-violence exposure' is present in the conversation."
+    },
+    {
+      "id": 109,
+      "name": "Coarseness",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.97,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Coarseness' is present in the conversation."
+    },
+    {
+      "id": 110,
+      "name": "Harmfulness",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.7,
+      "importance": 1.0,
+      "description": "Evaluates the degree to which 'Harmfulness' is present in the conversation."
+    },
+    {
+      "id": 111,
+      "name": "Brazenness",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.73,
+      "importance": 0.74,
+      "description": "Evaluates the degree to which 'Brazenness' is present in the conversation."
+    },
+    {
+      "id": 112,
+      "name": "Social Desirability Bias",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.76,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Social Desirability Bias' is present in the conversation."
+    },
+    {
+      "id": 113,
+      "name": "Drug-use history",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.79,
+      "importance": 0.55,
+      "description": "Evaluates the degree to which 'Drug-use history' is present in the conversation."
+    },
+    {
+      "id": 114,
+      "name": "Safety compliance",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.82,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety compliance' is present in the conversation."
+    },
+    {
+      "id": 115,
+      "name": "Ethical practices",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.85,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Ethical practices' is present in the conversation."
+    },
+    {
+      "id": 116,
+      "name": "Hatefulness",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.88,
+      "importance": 0.76,
+      "description": "Evaluates the degree to which 'Hatefulness' is present in the conversation."
+    },
+    {
+      "id": 117,
+      "name": "Safety Facet 17",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.91,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 17' is present in the conversation."
+    },
+    {
+      "id": 118,
+      "name": "Safety Facet 18",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.94,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 18' is present in the conversation."
+    },
+    {
+      "id": 119,
+      "name": "Safety Facet 19",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.97,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 19' is present in the conversation."
+    },
+    {
+      "id": 120,
+      "name": "Safety Facet 20",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.7,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 20' is present in the conversation."
+    },
+    {
+      "id": 121,
+      "name": "Safety Facet 21",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.73,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 21' is present in the conversation."
+    },
+    {
+      "id": 122,
+      "name": "Safety Facet 22",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.76,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 22' is present in the conversation."
+    },
+    {
+      "id": 123,
+      "name": "Safety Facet 23",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.79,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 23' is present in the conversation."
+    },
+    {
+      "id": 124,
+      "name": "Safety Facet 24",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.82,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 24' is present in the conversation."
+    },
+    {
+      "id": 125,
+      "name": "Safety Facet 25",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.85,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 25' is present in the conversation."
+    },
+    {
+      "id": 126,
+      "name": "Safety Facet 26",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.88,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 26' is present in the conversation."
+    },
+    {
+      "id": 127,
+      "name": "Safety Facet 27",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.91,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 27' is present in the conversation."
+    },
+    {
+      "id": 128,
+      "name": "Safety Facet 28",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.94,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 28' is present in the conversation."
+    },
+    {
+      "id": 129,
+      "name": "Safety Facet 29",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.97,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 29' is present in the conversation."
+    },
+    {
+      "id": 130,
+      "name": "Safety Facet 30",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.7,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 30' is present in the conversation."
+    },
+    {
+      "id": 131,
+      "name": "Safety Facet 31",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.73,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 31' is present in the conversation."
+    },
+    {
+      "id": 132,
+      "name": "Safety Facet 32",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.76,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 32' is present in the conversation."
+    },
+    {
+      "id": 133,
+      "name": "Safety Facet 33",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.79,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 33' is present in the conversation."
+    },
+    {
+      "id": 134,
+      "name": "Safety Facet 34",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.82,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 34' is present in the conversation."
+    },
+    {
+      "id": 135,
+      "name": "Safety Facet 35",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.85,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 35' is present in the conversation."
+    },
+    {
+      "id": 136,
+      "name": "Safety Facet 36",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.88,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 36' is present in the conversation."
+    },
+    {
+      "id": 137,
+      "name": "Safety Facet 37",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.91,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 37' is present in the conversation."
+    },
+    {
+      "id": 138,
+      "name": "Safety Facet 38",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.94,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 38' is present in the conversation."
+    },
+    {
+      "id": 139,
+      "name": "Safety Facet 39",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.97,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 39' is present in the conversation."
+    },
+    {
+      "id": 140,
+      "name": "Safety Facet 40",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.7,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 40' is present in the conversation."
+    },
+    {
+      "id": 141,
+      "name": "Safety Facet 41",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.73,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 41' is present in the conversation."
+    },
+    {
+      "id": 142,
+      "name": "Safety Facet 42",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.76,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 42' is present in the conversation."
+    },
+    {
+      "id": 143,
+      "name": "Safety Facet 43",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.79,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 43' is present in the conversation."
+    },
+    {
+      "id": 144,
+      "name": "Safety Facet 44",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.82,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 44' is present in the conversation."
+    },
+    {
+      "id": 145,
+      "name": "Safety Facet 45",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.85,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 45' is present in the conversation."
+    },
+    {
+      "id": 146,
+      "name": "Safety Facet 46",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.88,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 46' is present in the conversation."
+    },
+    {
+      "id": 147,
+      "name": "Safety Facet 47",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.91,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 47' is present in the conversation."
+    },
+    {
+      "id": 148,
+      "name": "Safety Facet 48",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.94,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 48' is present in the conversation."
+    },
+    {
+      "id": 149,
+      "name": "Safety Facet 49",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.97,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 49' is present in the conversation."
+    },
+    {
+      "id": 150,
+      "name": "Safety Facet 50",
+      "category": "safety",
+      "category_display": "Safety",
+      "weight": 0.7,
+      "importance": 0.95,
+      "description": "Evaluates the degree to which 'Safety Facet 50' is present in the conversation."
+    },
+    {
+      "id": 151,
+      "name": "Discontentment",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.73,
+      "importance": 0.73,
+      "description": "Evaluates the degree to which 'Discontentment' is present in the conversation."
+    },
+    {
+      "id": 152,
+      "name": "Emotionalism",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.76,
+      "importance": 0.73,
+      "description": "Evaluates the degree to which 'Emotionalism' is present in the conversation."
+    },
+    {
+      "id": 153,
+      "name": "Compassion Fatigue",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.79,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Compassion Fatigue' is present in the conversation."
+    },
+    {
+      "id": 154,
+      "name": "Moroseness",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.82,
+      "importance": 0.55,
+      "description": "Evaluates the degree to which 'Moroseness' is present in the conversation."
+    },
+    {
+      "id": 155,
+      "name": "Desperation",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.85,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Desperation' is present in the conversation."
+    },
+    {
+      "id": 156,
+      "name": "Presence of Spiritual Pain",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.88,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Presence of Spiritual Pain' is present in the conversation."
+    },
+    {
+      "id": 157,
+      "name": "Emotional-intelligence measure: Impulsiveness",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.91,
+      "importance": 0.5,
+      "description": "Evaluates the degree to which 'Emotional-intelligence measure: Impulsiveness' is present in the conversation."
+    },
+    {
+      "id": 158,
+      "name": "Depression: Feelings of sadness and hopelessness",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.94,
+      "importance": 0.55,
+      "description": "Evaluates the degree to which 'Depression: Feelings of sadness and hopelessness' is present in the conversation."
+    },
+    {
+      "id": 159,
+      "name": "Happiness",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.97,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Happiness' is present in the conversation."
+    },
+    {
+      "id": 160,
+      "name": "Inversion comfort level",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.7,
+      "importance": 0.61,
+      "description": "Evaluates the degree to which 'Inversion comfort level' is present in the conversation."
+    },
+    {
+      "id": 161,
+      "name": "Affection",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.73,
+      "importance": 0.59,
+      "description": "Evaluates the degree to which 'Affection' is present in the conversation."
+    },
+    {
+      "id": 162,
+      "name": "Compassion",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.76,
+      "importance": 1.0,
+      "description": "Evaluates the degree to which 'Compassion' is present in the conversation."
+    },
+    {
+      "id": 163,
+      "name": "General Mood and Attitude",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.79,
+      "importance": 0.59,
+      "description": "Evaluates the degree to which 'General Mood and Attitude' is present in the conversation."
+    },
+    {
+      "id": 164,
+      "name": "Emotional Boundaries",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.82,
+      "importance": 0.77,
+      "description": "Evaluates the degree to which 'Emotional Boundaries' is present in the conversation."
+    },
+    {
+      "id": 165,
+      "name": "Depth of Emotional Connections",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.85,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Depth of Emotional Connections' is present in the conversation."
+    },
+    {
+      "id": 166,
+      "name": "Sensitivity",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.88,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Sensitivity' is present in the conversation."
+    },
+    {
+      "id": 167,
+      "name": "Warmheartedness",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.91,
+      "importance": 0.69,
+      "description": "Evaluates the degree to which 'Warmheartedness' is present in the conversation."
+    },
+    {
+      "id": 168,
+      "name": "Blissfulness",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.94,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Blissfulness' is present in the conversation."
+    },
+    {
+      "id": 169,
+      "name": "Social-cognition variable: Cognitive Empathy",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.97,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Social-cognition variable: Cognitive Empathy' is present in the conversation."
+    },
+    {
+      "id": 170,
+      "name": "Affinity",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.7,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Affinity' is present in the conversation."
+    },
+    {
+      "id": 171,
+      "name": "Joyfulness",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.73,
+      "importance": 0.59,
+      "description": "Evaluates the degree to which 'Joyfulness' is present in the conversation."
+    },
+    {
+      "id": 172,
+      "name": "Fearfulness: Fear of physical dangers",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.76,
+      "importance": 0.74,
+      "description": "Evaluates the degree to which 'Fearfulness: Fear of physical dangers' is present in the conversation."
+    },
+    {
+      "id": 173,
+      "name": "Managing emotions",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.79,
+      "importance": 0.56,
+      "description": "Evaluates the degree to which 'Managing emotions' is present in the conversation."
+    },
+    {
+      "id": 174,
+      "name": "Caffeine sensitivity gene",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.82,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Caffeine sensitivity gene' is present in the conversation."
+    },
+    {
+      "id": 175,
+      "name": "Comfort with Vulnerability",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.85,
+      "importance": 0.7,
+      "description": "Evaluates the degree to which 'Comfort with Vulnerability' is present in the conversation."
+    },
+    {
+      "id": 176,
+      "name": "Type of Support Preferred (Emotional vs. Practical)",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.88,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'Type of Support Preferred (Emotional vs. Practical)' is present in the conversation."
+    },
+    {
+      "id": 177,
+      "name": "Patience: Resistance to anger",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.91,
+      "importance": 0.65,
+      "description": "Evaluates the degree to which 'Patience: Resistance to anger' is present in the conversation."
+    },
+    {
+      "id": 178,
+      "name": "Emotion & Empathy Facet 28",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.94,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 28' is present in the conversation."
+    },
+    {
+      "id": 179,
+      "name": "Emotion & Empathy Facet 29",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.97,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 29' is present in the conversation."
+    },
+    {
+      "id": 180,
+      "name": "Emotion & Empathy Facet 30",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.7,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 30' is present in the conversation."
+    },
+    {
+      "id": 181,
+      "name": "Emotion & Empathy Facet 31",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.73,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 31' is present in the conversation."
+    },
+    {
+      "id": 182,
+      "name": "Emotion & Empathy Facet 32",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.76,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 32' is present in the conversation."
+    },
+    {
+      "id": 183,
+      "name": "Emotion & Empathy Facet 33",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.79,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 33' is present in the conversation."
+    },
+    {
+      "id": 184,
+      "name": "Emotion & Empathy Facet 34",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.82,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 34' is present in the conversation."
+    },
+    {
+      "id": 185,
+      "name": "Emotion & Empathy Facet 35",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.85,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 35' is present in the conversation."
+    },
+    {
+      "id": 186,
+      "name": "Emotion & Empathy Facet 36",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.88,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 36' is present in the conversation."
+    },
+    {
+      "id": 187,
+      "name": "Emotion & Empathy Facet 37",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.91,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 37' is present in the conversation."
+    },
+    {
+      "id": 188,
+      "name": "Emotion & Empathy Facet 38",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.94,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 38' is present in the conversation."
+    },
+    {
+      "id": 189,
+      "name": "Emotion & Empathy Facet 39",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.97,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 39' is present in the conversation."
+    },
+    {
+      "id": 190,
+      "name": "Emotion & Empathy Facet 40",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.7,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 40' is present in the conversation."
+    },
+    {
+      "id": 191,
+      "name": "Emotion & Empathy Facet 41",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.73,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 41' is present in the conversation."
+    },
+    {
+      "id": 192,
+      "name": "Emotion & Empathy Facet 42",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.76,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 42' is present in the conversation."
+    },
+    {
+      "id": 193,
+      "name": "Emotion & Empathy Facet 43",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.79,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 43' is present in the conversation."
+    },
+    {
+      "id": 194,
+      "name": "Emotion & Empathy Facet 44",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.82,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 44' is present in the conversation."
+    },
+    {
+      "id": 195,
+      "name": "Emotion & Empathy Facet 45",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.85,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 45' is present in the conversation."
+    },
+    {
+      "id": 196,
+      "name": "Emotion & Empathy Facet 46",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.88,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 46' is present in the conversation."
+    },
+    {
+      "id": 197,
+      "name": "Emotion & Empathy Facet 47",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.91,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 47' is present in the conversation."
+    },
+    {
+      "id": 198,
+      "name": "Emotion & Empathy Facet 48",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.94,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 48' is present in the conversation."
+    },
+    {
+      "id": 199,
+      "name": "Emotion & Empathy Facet 49",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.97,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 49' is present in the conversation."
+    },
+    {
+      "id": 200,
+      "name": "Emotion & Empathy Facet 50",
+      "category": "emotion_empathy",
+      "category_display": "Emotion & Empathy",
+      "weight": 0.7,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'Emotion & Empathy Facet 50' is present in the conversation."
+    },
+    {
+      "id": 201,
+      "name": "Risktaking",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.73,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Risktaking' is present in the conversation."
+    },
+    {
+      "id": 202,
+      "name": "Naivety",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.76,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'Naivety' is present in the conversation."
+    },
+    {
+      "id": 203,
+      "name": "Acidity",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.79,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Acidity' is present in the conversation."
+    },
+    {
+      "id": 204,
+      "name": "Democratic Leadership",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.82,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Democratic Leadership' is present in the conversation."
+    },
+    {
+      "id": 205,
+      "name": "Hesitation",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.85,
+      "importance": 0.54,
+      "description": "Evaluates the degree to which 'Hesitation' is present in the conversation."
+    },
+    {
+      "id": 206,
+      "name": "Overprotectiveness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.88,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Overprotectiveness' is present in the conversation."
+    },
+    {
+      "id": 207,
+      "name": "Merriness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.91,
+      "importance": 0.63,
+      "description": "Evaluates the degree to which 'Merriness' is present in the conversation."
+    },
+    {
+      "id": 208,
+      "name": "Self-improvement",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.94,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Self-improvement' is present in the conversation."
+    },
+    {
+      "id": 209,
+      "name": "Assertiveness and control in relationships",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.97,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Assertiveness and control in relationships' is present in the conversation."
+    },
+    {
+      "id": 210,
+      "name": "Cunningness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.7,
+      "importance": 0.52,
+      "description": "Evaluates the degree to which 'Cunningness' is present in the conversation."
+    },
+    {
+      "id": 211,
+      "name": "Adventure-Seeking Behavior",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.73,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Adventure-Seeking Behavior' is present in the conversation."
+    },
+    {
+      "id": 212,
+      "name": "Specialist",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.76,
+      "importance": 0.5,
+      "description": "Evaluates the degree to which 'Specialist' is present in the conversation."
+    },
+    {
+      "id": 213,
+      "name": "Aloofness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.79,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Aloofness' is present in the conversation."
+    },
+    {
+      "id": 214,
+      "name": "Genuine",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.82,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Genuine' is present in the conversation."
+    },
+    {
+      "id": 215,
+      "name": "Determinedness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.85,
+      "importance": 0.73,
+      "description": "Evaluates the degree to which 'Determinedness' is present in the conversation."
+    },
+    {
+      "id": 216,
+      "name": "HonestyHumility",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.88,
+      "importance": 0.85,
+      "description": "Evaluates the degree to which 'HonestyHumility' is present in the conversation."
+    },
+    {
+      "id": 217,
+      "name": "Pure Challenge",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.91,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Pure Challenge' is present in the conversation."
+    },
+    {
+      "id": 218,
+      "name": "Openness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.94,
+      "importance": 0.65,
+      "description": "Evaluates the degree to which 'Openness' is present in the conversation."
+    },
+    {
+      "id": 219,
+      "name": "SelfEsteem",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.97,
+      "importance": 0.65,
+      "description": "Evaluates the degree to which 'SelfEsteem' is present in the conversation."
+    },
+    {
+      "id": 220,
+      "name": "Comparing alphanumeric data",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.7,
+      "importance": 0.65,
+      "description": "Evaluates the degree to which 'Comparing alphanumeric data' is present in the conversation."
+    },
+    {
+      "id": 221,
+      "name": "Big-heartedness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.73,
+      "importance": 0.51,
+      "description": "Evaluates the degree to which 'Big-heartedness' is present in the conversation."
+    },
+    {
+      "id": 222,
+      "name": "Compulsive activities",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.76,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Compulsive activities' is present in the conversation."
+    },
+    {
+      "id": 223,
+      "name": "FSH level",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.79,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'FSH level' is present in the conversation."
+    },
+    {
+      "id": 224,
+      "name": "Self Perspective",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.82,
+      "importance": 0.65,
+      "description": "Evaluates the degree to which 'Self Perspective' is present in the conversation."
+    },
+    {
+      "id": 225,
+      "name": "Anatomy knowledge",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.85,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Anatomy knowledge' is present in the conversation."
+    },
+    {
+      "id": 226,
+      "name": "Role of Spirituality in Community Involvement",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.88,
+      "importance": 0.64,
+      "description": "Evaluates the degree to which 'Role of Spirituality in Community Involvement' is present in the conversation."
+    },
+    {
+      "id": 227,
+      "name": "Eco-tourism trips",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.91,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Eco-tourism trips' is present in the conversation."
+    },
+    {
+      "id": 228,
+      "name": "Chivalrousness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.94,
+      "importance": 0.63,
+      "description": "Evaluates the degree to which 'Chivalrousness' is present in the conversation."
+    },
+    {
+      "id": 229,
+      "name": "Mindfulness facet: Observing",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.97,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Mindfulness facet: Observing' is present in the conversation."
+    },
+    {
+      "id": 230,
+      "name": "Submissiveness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.7,
+      "importance": 0.52,
+      "description": "Evaluates the degree to which 'Submissiveness' is present in the conversation."
+    },
+    {
+      "id": 231,
+      "name": "Training-cycle length",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.73,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Training-cycle length' is present in the conversation."
+    },
+    {
+      "id": 232,
+      "name": "Sensitiveness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.76,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Sensitiveness' is present in the conversation."
+    },
+    {
+      "id": 233,
+      "name": "Negative Affect Frequency",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.79,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Negative Affect Frequency' is present in the conversation."
+    },
+    {
+      "id": 234,
+      "name": "Dance-cardio sessions",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.82,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Dance-cardio sessions' is present in the conversation."
+    },
+    {
+      "id": 235,
+      "name": "Enthusiasm",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.85,
+      "importance": 0.59,
+      "description": "Evaluates the degree to which 'Enthusiasm' is present in the conversation."
+    },
+    {
+      "id": 236,
+      "name": "Inattentiveness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.88,
+      "importance": 0.61,
+      "description": "Evaluates the degree to which 'Inattentiveness' is present in the conversation."
+    },
+    {
+      "id": 237,
+      "name": "Unassertiveness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.91,
+      "importance": 0.61,
+      "description": "Evaluates the degree to which 'Unassertiveness' is present in the conversation."
+    },
+    {
+      "id": 238,
+      "name": "Decision-making decisiveness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.94,
+      "importance": 0.52,
+      "description": "Evaluates the degree to which 'Decision-making decisiveness' is present in the conversation."
+    },
+    {
+      "id": 239,
+      "name": "Sense-of-coherence score",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.97,
+      "importance": 0.72,
+      "description": "Evaluates the degree to which 'Sense-of-coherence score' is present in the conversation."
+    },
+    {
+      "id": 240,
+      "name": "Justice-mindedness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.7,
+      "importance": 0.65,
+      "description": "Evaluates the degree to which 'Justice-mindedness' is present in the conversation."
+    },
+    {
+      "id": 241,
+      "name": "Subscription count",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.73,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Subscription count' is present in the conversation."
+    },
+    {
+      "id": 242,
+      "name": "Depression Symptoms",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.76,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Depression Symptoms' is present in the conversation."
+    },
+    {
+      "id": 243,
+      "name": "Orderliness",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.79,
+      "importance": 0.7,
+      "description": "Evaluates the degree to which 'Orderliness' is present in the conversation."
+    },
+    {
+      "id": 244,
+      "name": "Multiculturalism",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.82,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Multiculturalism' is present in the conversation."
+    },
+    {
+      "id": 245,
+      "name": "Creative risk-taking tendency",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.85,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Creative risk-taking tendency' is present in the conversation."
+    },
+    {
+      "id": 246,
+      "name": "Inefficiency",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.88,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Inefficiency' is present in the conversation."
+    },
+    {
+      "id": 247,
+      "name": "Network basics",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.91,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Network basics' is present in the conversation."
+    },
+    {
+      "id": 248,
+      "name": "Character strength: Perseverance",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.94,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Character strength: Perseverance' is present in the conversation."
+    },
+    {
+      "id": 249,
+      "name": "Competition",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.97,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Competition' is present in the conversation."
+    },
+    {
+      "id": 250,
+      "name": "Sustainable-transport usage",
+      "category": "behavioral_traits",
+      "category_display": "Behavioral Traits",
+      "weight": 0.7,
+      "importance": 0.62,
+      "description": "Evaluates the degree to which 'Sustainable-transport usage' is present in the conversation."
+    },
+    {
+      "id": 251,
+      "name": "Common-sense",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.73,
+      "importance": 1.0,
+      "description": "Evaluates the degree to which 'Common-sense' is present in the conversation."
+    },
+    {
+      "id": 252,
+      "name": "Statistical Reasoning",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.76,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Statistical Reasoning' is present in the conversation."
+    },
+    {
+      "id": 253,
+      "name": "Spatial perception",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.79,
+      "importance": 0.6,
+      "description": "Evaluates the degree to which 'Spatial perception' is present in the conversation."
+    },
+    {
+      "id": 254,
+      "name": "Logical Sequence Identification",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.82,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Logical Sequence Identification' is present in the conversation."
+    },
+    {
+      "id": 255,
+      "name": "Estimating Calculations",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.85,
+      "importance": 0.79,
+      "description": "Evaluates the degree to which 'Estimating Calculations' is present in the conversation."
+    },
+    {
+      "id": 256,
+      "name": "Synthesis of information",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.88,
+      "importance": 0.75,
+      "description": "Evaluates the degree to which 'Synthesis of information' is present in the conversation."
+    },
+    {
+      "id": 257,
+      "name": "Critical reasoning",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.91,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Critical reasoning' is present in the conversation."
+    },
+    {
+      "id": 258,
+      "name": "Data Analysis",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.94,
+      "importance": 0.78,
+      "description": "Evaluates the degree to which 'Data Analysis' is present in the conversation."
+    },
+    {
+      "id": 259,
+      "name": "Character strength: Social Intelligence",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.97,
+      "importance": 0.69,
+      "description": "Evaluates the degree to which 'Character strength: Social Intelligence' is present in the conversation."
+    },
+    {
+      "id": 260,
+      "name": "Creativity in solutions",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.7,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Creativity in solutions' is present in the conversation."
+    },
+    {
+      "id": 261,
+      "name": "Understanding Mathematical Concepts",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.73,
+      "importance": 0.73,
+      "description": "Evaluates the degree to which 'Understanding Mathematical Concepts' is present in the conversation."
+    },
+    {
+      "id": 262,
+      "name": "Intellect",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.76,
+      "importance": 0.56,
+      "description": "Evaluates the degree to which 'Intellect' is present in the conversation."
+    },
+    {
+      "id": 263,
+      "name": "Use of Mathematical Formulas",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.79,
+      "importance": 0.66,
+      "description": "Evaluates the degree to which 'Use of Mathematical Formulas' is present in the conversation."
+    },
+    {
+      "id": 264,
+      "name": "Judging Consequences",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.82,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Judging Consequences' is present in the conversation."
+    },
+    {
+      "id": 265,
+      "name": "Originality",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.85,
+      "importance": 0.74,
+      "description": "Evaluates the degree to which 'Originality' is present in the conversation."
+    },
+    {
+      "id": 266,
+      "name": "Analogies",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.88,
+      "importance": 0.69,
+      "description": "Evaluates the degree to which 'Analogies' is present in the conversation."
+    },
+    {
+      "id": 267,
+      "name": "Intelligence Quotient (IQ)",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.91,
+      "importance": 0.63,
+      "description": "Evaluates the degree to which 'Intelligence Quotient (IQ)' is present in the conversation."
+    },
+    {
+      "id": 268,
+      "name": "Cognitive measure: Working Memory Index",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.94,
+      "importance": 0.58,
+      "description": "Evaluates the degree to which 'Cognitive measure: Working Memory Index' is present in the conversation."
+    },
+    {
+      "id": 269,
+      "name": "Rapid cognitive processing",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.97,
+      "importance": 0.59,
+      "description": "Evaluates the degree to which 'Rapid cognitive processing' is present in the conversation."
+    },
+    {
+      "id": 270,
+      "name": "Types of Mindfulness Techniques Used",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.7,
+      "importance": 0.57,
+      "description": "Evaluates the degree to which 'Types of Mindfulness Techniques Used' is present in the conversation."
+    },
+    {
+      "id": 271,
+      "name": "Economic reasoning",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.73,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Economic reasoning' is present in the conversation."
+    },
+    {
+      "id": 272,
+      "name": "Intelligence & Reasoning Facet 22",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.76,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 22' is present in the conversation."
+    },
+    {
+      "id": 273,
+      "name": "Intelligence & Reasoning Facet 23",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.79,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 23' is present in the conversation."
+    },
+    {
+      "id": 274,
+      "name": "Intelligence & Reasoning Facet 24",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.82,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 24' is present in the conversation."
+    },
+    {
+      "id": 275,
+      "name": "Intelligence & Reasoning Facet 25",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.85,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 25' is present in the conversation."
+    },
+    {
+      "id": 276,
+      "name": "Intelligence & Reasoning Facet 26",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.88,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 26' is present in the conversation."
+    },
+    {
+      "id": 277,
+      "name": "Intelligence & Reasoning Facet 27",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.91,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 27' is present in the conversation."
+    },
+    {
+      "id": 278,
+      "name": "Intelligence & Reasoning Facet 28",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.94,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 28' is present in the conversation."
+    },
+    {
+      "id": 279,
+      "name": "Intelligence & Reasoning Facet 29",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.97,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 29' is present in the conversation."
+    },
+    {
+      "id": 280,
+      "name": "Intelligence & Reasoning Facet 30",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.7,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 30' is present in the conversation."
+    },
+    {
+      "id": 281,
+      "name": "Intelligence & Reasoning Facet 31",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.73,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 31' is present in the conversation."
+    },
+    {
+      "id": 282,
+      "name": "Intelligence & Reasoning Facet 32",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.76,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 32' is present in the conversation."
+    },
+    {
+      "id": 283,
+      "name": "Intelligence & Reasoning Facet 33",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.79,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 33' is present in the conversation."
+    },
+    {
+      "id": 284,
+      "name": "Intelligence & Reasoning Facet 34",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.82,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 34' is present in the conversation."
+    },
+    {
+      "id": 285,
+      "name": "Intelligence & Reasoning Facet 35",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.85,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 35' is present in the conversation."
+    },
+    {
+      "id": 286,
+      "name": "Intelligence & Reasoning Facet 36",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.88,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 36' is present in the conversation."
+    },
+    {
+      "id": 287,
+      "name": "Intelligence & Reasoning Facet 37",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.91,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 37' is present in the conversation."
+    },
+    {
+      "id": 288,
+      "name": "Intelligence & Reasoning Facet 38",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.94,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 38' is present in the conversation."
+    },
+    {
+      "id": 289,
+      "name": "Intelligence & Reasoning Facet 39",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.97,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 39' is present in the conversation."
+    },
+    {
+      "id": 290,
+      "name": "Intelligence & Reasoning Facet 40",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.7,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 40' is present in the conversation."
+    },
+    {
+      "id": 291,
+      "name": "Intelligence & Reasoning Facet 41",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.73,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 41' is present in the conversation."
+    },
+    {
+      "id": 292,
+      "name": "Intelligence & Reasoning Facet 42",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.76,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 42' is present in the conversation."
+    },
+    {
+      "id": 293,
+      "name": "Intelligence & Reasoning Facet 43",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.79,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 43' is present in the conversation."
+    },
+    {
+      "id": 294,
+      "name": "Intelligence & Reasoning Facet 44",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.82,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 44' is present in the conversation."
+    },
+    {
+      "id": 295,
+      "name": "Intelligence & Reasoning Facet 45",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.85,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 45' is present in the conversation."
+    },
+    {
+      "id": 296,
+      "name": "Intelligence & Reasoning Facet 46",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.88,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 46' is present in the conversation."
+    },
+    {
+      "id": 297,
+      "name": "Intelligence & Reasoning Facet 47",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.91,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 47' is present in the conversation."
+    },
+    {
+      "id": 298,
+      "name": "Intelligence & Reasoning Facet 48",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.94,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 48' is present in the conversation."
+    },
+    {
+      "id": 299,
+      "name": "Intelligence & Reasoning Facet 49",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.97,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 49' is present in the conversation."
+    },
+    {
+      "id": 300,
+      "name": "Intelligence & Reasoning Facet 50",
+      "category": "intelligence_reasoning",
+      "category_display": "Intelligence & Reasoning",
+      "weight": 0.7,
+      "importance": 0.8,
+      "description": "Evaluates the degree to which 'Intelligence & Reasoning Facet 50' is present in the conversation."
+    }
+  ],
+  "facet_relationships": {
+    "1": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "2": [
+      1,
+      3,
+      4,
+      5,
+      6
+    ],
+    "3": [
+      1,
+      2,
+      4,
+      5,
+      6
+    ],
+    "4": [
+      1,
+      2,
+      3,
+      5,
+      6
+    ],
+    "5": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "6": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "7": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "8": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "9": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "10": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "11": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "12": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "13": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "14": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "15": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "16": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "17": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "18": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "19": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "20": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "21": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "22": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "23": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "24": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "25": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "26": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "27": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "28": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "29": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "30": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "31": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "32": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "33": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "34": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "35": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "36": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "37": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "38": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "39": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "40": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "41": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "42": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "43": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "44": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "45": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "46": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "47": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "48": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "49": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "50": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "51": [
+      52,
+      53,
+      54,
+      55,
+      56
+    ],
+    "52": [
+      51,
+      53,
+      54,
+      55,
+      56
+    ],
+    "53": [
+      51,
+      52,
+      54,
+      55,
+      56
+    ],
+    "54": [
+      51,
+      52,
+      53,
+      55,
+      56
+    ],
+    "55": [
+      51,
+      52,
+      53,
+      54,
+      56
+    ],
+    "56": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "57": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "58": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "59": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "60": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "61": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "62": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "63": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "64": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "65": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "66": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "67": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "68": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "69": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "70": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "71": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "72": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "73": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "74": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "75": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "76": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "77": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "78": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "79": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "80": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "81": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "82": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "83": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "84": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "85": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "86": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "87": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "88": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "89": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "90": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "91": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "92": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "93": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "94": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "95": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "96": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "97": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "98": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "99": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "100": [
+      51,
+      52,
+      53,
+      54,
+      55
+    ],
+    "101": [
+      102,
+      103,
+      104,
+      105,
+      106
+    ],
+    "102": [
+      101,
+      103,
+      104,
+      105,
+      106
+    ],
+    "103": [
+      101,
+      102,
+      104,
+      105,
+      106
+    ],
+    "104": [
+      101,
+      102,
+      103,
+      105,
+      106
+    ],
+    "105": [
+      101,
+      102,
+      103,
+      104,
+      106
+    ],
+    "106": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "107": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "108": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "109": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "110": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "111": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "112": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "113": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "114": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "115": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "116": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "117": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "118": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "119": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "120": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "121": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "122": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "123": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "124": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "125": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "126": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "127": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "128": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "129": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "130": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "131": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "132": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "133": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "134": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "135": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "136": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "137": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "138": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "139": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "140": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "141": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "142": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "143": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "144": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "145": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "146": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "147": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "148": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "149": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "150": [
+      101,
+      102,
+      103,
+      104,
+      105
+    ],
+    "151": [
+      152,
+      153,
+      154,
+      155,
+      156
+    ],
+    "152": [
+      151,
+      153,
+      154,
+      155,
+      156
+    ],
+    "153": [
+      151,
+      152,
+      154,
+      155,
+      156
+    ],
+    "154": [
+      151,
+      152,
+      153,
+      155,
+      156
+    ],
+    "155": [
+      151,
+      152,
+      153,
+      154,
+      156
+    ],
+    "156": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "157": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "158": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "159": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "160": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "161": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "162": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "163": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "164": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "165": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "166": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "167": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "168": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "169": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "170": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "171": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "172": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "173": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "174": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "175": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "176": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "177": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "178": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "179": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "180": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "181": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "182": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "183": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "184": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "185": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "186": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "187": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "188": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "189": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "190": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "191": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "192": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "193": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "194": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "195": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "196": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "197": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "198": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "199": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "200": [
+      151,
+      152,
+      153,
+      154,
+      155
+    ],
+    "201": [
+      202,
+      203,
+      204,
+      205,
+      206
+    ],
+    "202": [
+      201,
+      203,
+      204,
+      205,
+      206
+    ],
+    "203": [
+      201,
+      202,
+      204,
+      205,
+      206
+    ],
+    "204": [
+      201,
+      202,
+      203,
+      205,
+      206
+    ],
+    "205": [
+      201,
+      202,
+      203,
+      204,
+      206
+    ],
+    "206": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "207": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "208": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "209": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "210": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "211": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "212": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "213": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "214": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "215": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "216": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "217": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "218": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "219": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "220": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "221": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "222": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "223": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "224": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "225": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "226": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "227": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "228": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "229": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "230": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "231": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "232": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "233": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "234": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "235": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "236": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "237": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "238": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "239": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "240": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "241": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "242": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "243": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "244": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "245": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "246": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "247": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "248": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "249": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "250": [
+      201,
+      202,
+      203,
+      204,
+      205
+    ],
+    "251": [
+      252,
+      253,
+      254,
+      255,
+      256
+    ],
+    "252": [
+      251,
+      253,
+      254,
+      255,
+      256
+    ],
+    "253": [
+      251,
+      252,
+      254,
+      255,
+      256
+    ],
+    "254": [
+      251,
+      252,
+      253,
+      255,
+      256
+    ],
+    "255": [
+      251,
+      252,
+      253,
+      254,
+      256
+    ],
+    "256": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "257": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "258": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "259": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "260": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "261": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "262": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "263": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "264": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "265": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "266": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "267": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "268": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "269": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "270": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "271": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "272": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "273": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "274": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "275": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "276": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "277": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "278": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "279": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "280": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "281": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "282": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "283": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "284": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "285": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "286": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "287": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "288": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "289": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "290": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "291": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "292": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "293": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "294": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "295": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "296": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "297": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "298": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "299": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ],
+    "300": [
+      251,
+      252,
+      253,
+      254,
+      255
+    ]
+  }
+}
