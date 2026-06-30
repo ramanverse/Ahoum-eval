@@ -30,3 +30,11 @@ data/raw/*.csv
 
 # Local run logs
 *.log
+logs/
+
+# Docker / secrets
+.env
+.env.local
+.env.*.local
+
+# Docker build cache artifacts (not the .dockerignore file itself)

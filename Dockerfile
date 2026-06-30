@@ -1,49 +1,110 @@
-FROM python:3.10-slim
+# =============================================================================
+# Ahoum Conversation Evaluation — Multi-stage Dockerfile
+# =============================================================================
+# Stage 1: builder — installs all Python deps into a virtualenv
+# Stage 2: runtime — slim image that copies only the venv + app code
+# =============================================================================
 
-# System dependencies
+# --------------------------------------------------------------------------- #
+# Stage 1: Builder
+# --------------------------------------------------------------------------- #
+FROM python:3.11-slim AS builder
+
+WORKDIR /build
+
+# System build deps
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    git \
     gcc \
     g++ \
+    git \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create venv
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Install Python deps — cached unless requirements.txt changes
+COPY requirements.txt .
+RUN pip install --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# Download NLP models into the venv layer
+RUN python -m spacy download en_core_web_sm || true
+RUN python -c "import nltk; nltk.download('punkt', quiet=True); nltk.download('punkt_tab', quiet=True); nltk.download('stopwords', quiet=True)" || true
+
+
+# --------------------------------------------------------------------------- #
+# Stage 2: Runtime base
+# --------------------------------------------------------------------------- #
+FROM python:3.11-slim AS runtime
+
+# Runtime system deps only
+RUN apt-get update && apt-get install -y --no-install-recommends \
     libglib2.0-0 \
     libgomp1 \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
+# Copy venv from builder
+COPY --from=builder /opt/venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+
 WORKDIR /app
 
-# Install Python dependencies first (cache layer)
-COPY requirements.txt .
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+# Copy application code
+COPY src/       ./src/
+COPY api/       ./api/
+COPY ui/        ./ui/
+COPY config.yaml .
 
-# Download spaCy model
-RUN python -m spacy download en_core_web_sm || true
+# Copy pre-generated data (avoids rebuilding inside container)
+COPY data/processed/facets_cleaned.json    ./data/processed/facets_cleaned.json
+COPY data/raw/generated_conversations.json ./data/raw/generated_conversations.json
+COPY data/examples/sample_evaluations_50.json ./data/examples/sample_evaluations_50.json
 
-# Download NLTK data
-RUN python -c "import nltk; nltk.download('punkt', quiet=True); nltk.download('punkt_tab', quiet=True); nltk.download('stopwords', quiet=True)" || true
+# Create writable runtime dirs
+RUN mkdir -p data/processed data/raw data/examples .cache/model_cache logs
 
-# Copy project files
-COPY . .
+# Non-root user for security
+RUN addgroup --system ahoum && adduser --system --ingroup ahoum ahoum
+RUN chown -R ahoum:ahoum /app
+USER ahoum
 
-# Create data directories
-RUN mkdir -p data/raw data/processed data/examples .cache/model_cache
 
-# Generate data files if they don't exist
-RUN python src/data_generator.py --output data/raw/generated_conversations.json --total 300 && \
-    python src/data_loader.py --facets data/raw/facets_assignment.csv --output data/processed/facets_cleaned.json && \
-    python src/generate_sample_evals.py || true
+# --------------------------------------------------------------------------- #
+# Stage 3a: Streamlit UI image
+# --------------------------------------------------------------------------- #
+FROM runtime AS ui
 
-# Expose ports
-EXPOSE 8501 8080
+EXPOSE 8501
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=30s --retries=3 \
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
     CMD curl --fail http://localhost:8501/_stcore/health || exit 1
 
-# Default: run Streamlit UI
 CMD ["streamlit", "run", "ui/app.py", \
      "--server.port=8501", \
      "--server.address=0.0.0.0", \
      "--server.headless=true", \
-     "--browser.gatherUsageStats=false"]
+     "--browser.gatherUsageStats=false", \
+     "--server.enableCORS=false", \
+     "--server.enableXsrfProtection=false"]
+
+
+# --------------------------------------------------------------------------- #
+# Stage 3b: FastAPI API image
+# --------------------------------------------------------------------------- #
+FROM runtime AS api
+
+EXPOSE 8080
+
+HEALTHCHECK --interval=30s --timeout=10s --start-period=20s --retries=3 \
+    CMD curl --fail http://localhost:8080/health || exit 1
+
+CMD ["uvicorn", "api.main:app", \
+     "--host", "0.0.0.0", \
+     "--port", "8080", \
+     "--workers", "2", \
+     "--log-level", "info"]

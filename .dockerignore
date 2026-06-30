@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Git
+.git/
+.gitignore
+
+# Development files
+.env
+.env.*
+notebooks/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docs (not needed in image)
+*.md
+LICENSE
+CONTRIBUTING.md
+
+# Large generated files we COPY explicitly (not needed via COPY . .)
+# We selectively copy in the Dockerfile: only pre-generated data files
+
+# Model cache (downloaded at runtime or from builder)
+.cache/
+model_cache/
+
+# Logs
+logs/
+*.log

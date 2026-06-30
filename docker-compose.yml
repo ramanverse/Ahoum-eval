@@ -1,58 +1,105 @@
-version: '3.8'
+version: '3.9'
+
+# =============================================================================
+# Ahoum Conversation Evaluation — Docker Compose
+# =============================================================================
+# Services:
+#   app  — Streamlit dashboard  → http://localhost:8501
+#   api  — FastAPI REST API     → http://localhost:8080
+#   nginx — Reverse proxy       → http://localhost (port 80)
+#
+# Usage:
+#   docker compose up --build          # build + start all
+#   docker compose up app              # UI only
+#   docker compose up api              # API only
+#   docker compose down -v             # stop + remove volumes
+#   docker compose logs -f api         # tail API logs
+# =============================================================================
 
 services:
-  # -----------------------------------------------------------------------
-  # Streamlit Dashboard
-  # -----------------------------------------------------------------------
+
+  # ---------------------------------------------------------------------------
+  # Streamlit Dashboard — http://localhost:8501
+  # ---------------------------------------------------------------------------
   app:
     build:
       context: .
       dockerfile: Dockerfile
+      target: ui          # Use the 'ui' final stage
+    image: ahoum-ui:latest
     container_name: ahoum-ui
     ports:
       - "8501:8501"
     volumes:
-      - ./data:/app/data
-      - ./config.yaml:/app/config.yaml
+      # Mount data dir so results persist and can be updated without rebuild
+      - ./data:/app/data:ro
       - model_cache:/app/.cache/model_cache
     environment:
       - HF_TOKEN=${HF_TOKEN:-}
       - PYTHONUNBUFFERED=1
+      - AHOUM_ENV=production
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
       interval: 30s
       timeout: 10s
       retries: 3
-      start_period: 30s
+      start_period: 40s
+    networks:
+      - ahoum-net
 
-  # -----------------------------------------------------------------------
-  # FastAPI REST Endpoint
-  # -----------------------------------------------------------------------
+  # ---------------------------------------------------------------------------
+  # FastAPI REST API — http://localhost:8080
+  # ---------------------------------------------------------------------------
   api:
     build:
       context: .
       dockerfile: Dockerfile
+      target: api          # Use the 'api' final stage
+    image: ahoum-api:latest
     container_name: ahoum-api
-    command: uvicorn api.main:app --host 0.0.0.0 --port 8080 --workers 2
     ports:
       - "8080:8080"
     volumes:
-      - ./data:/app/data
-      - ./config.yaml:/app/config.yaml
+      - ./data:/app/data:ro
       - model_cache:/app/.cache/model_cache
     environment:
       - HF_TOKEN=${HF_TOKEN:-}
       - PYTHONUNBUFFERED=1
+      - AHOUM_ENV=production
     restart: unless-stopped
-    depends_on:
-      - app
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
       interval: 30s
       timeout: 10s
       retries: 3
       start_period: 20s
+    networks:
+      - ahoum-net
+
+  # ---------------------------------------------------------------------------
+  # Nginx — Reverse proxy (optional, comment out if not needed)
+  # Routes /api/* → api:8080, /* → app:8501
+  # ---------------------------------------------------------------------------
+  nginx:
+    image: nginx:alpine
+    container_name: ahoum-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - app
+      - api
+    restart: unless-stopped
+    networks:
+      - ahoum-net
+    profiles:
+      - full   # Only starts when: docker compose --profile full up
+
+networks:
+  ahoum-net:
+    driver: bridge
 
 volumes:
   model_cache:
