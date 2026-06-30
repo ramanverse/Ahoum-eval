@@ -24,10 +24,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN python -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
-# Install Python deps — cached unless requirements.txt changes
-COPY requirements.txt .
+# Install Python deps using lean CPU-only requirements (avoids ~650MB CUDA libs)
+COPY requirements-docker.txt .
 RUN pip install --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir -r requirements-docker.txt
 
 # Download NLP models into the venv layer
 RUN python -m spacy download en_core_web_sm || true
