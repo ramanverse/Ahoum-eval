@@ -31,7 +31,10 @@ RUN pip install --upgrade pip && \
 
 # Download NLP models into the venv layer
 RUN python -m spacy download en_core_web_sm || true
-RUN python -c "import nltk; nltk.download('punkt', quiet=True); nltk.download('punkt_tab', quiet=True); nltk.download('stopwords', quiet=True)" || true
+
+# Download NLTK data to a known path inside the venv (baked into the image)
+ENV NLTK_DATA=/opt/nltk_data
+RUN python -c "import nltk; nltk.download('punkt', quiet=True, download_dir='/opt/nltk_data'); nltk.download('punkt_tab', quiet=True, download_dir='/opt/nltk_data'); nltk.download('stopwords', quiet=True, download_dir='/opt/nltk_data')" || true
 
 
 # --------------------------------------------------------------------------- #
@@ -46,11 +49,16 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy venv from builder
+# Copy venv and NLTK data from builder
 COPY --from=builder /opt/venv /opt/venv
+COPY --from=builder /opt/nltk_data /opt/nltk_data
 ENV PATH="/opt/venv/bin:$PATH"
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
+# Point NLP libs to known writable/readable cache dirs
+ENV NLTK_DATA=/opt/nltk_data
+ENV TRANSFORMERS_CACHE=/app/.cache/model_cache
+ENV HF_HOME=/app/.cache/model_cache
 
 WORKDIR /app
 
@@ -68,9 +76,10 @@ COPY data/examples/sample_evaluations_50.json ./data/examples/sample_evaluations
 # Create writable runtime dirs
 RUN mkdir -p data/processed data/raw data/examples .cache/model_cache logs
 
-# Non-root user for security
-RUN addgroup --system ahoum && adduser --system --ingroup ahoum ahoum
-RUN chown -R ahoum:ahoum /app
+# Non-root user for security (with home dir so tools don't panic)
+RUN addgroup --system ahoum && \
+    adduser --system --ingroup ahoum --home /app --shell /sbin/nologin ahoum && \
+    chown -R ahoum:ahoum /app
 USER ahoum
 
 
