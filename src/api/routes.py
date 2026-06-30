@@ -23,7 +23,7 @@ from src.utils import get_logger, load_config, set_seed
 logger = get_logger("api_routes")
 router = APIRouter()
 
-_ROOT = Path(__file__).resolve().parent.parent
+_ROOT = Path(__file__).resolve().parent.parent.parent
 
 # ---------------------------------------------------------------------------
 # Global state (lazy loaded)

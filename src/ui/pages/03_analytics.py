@@ -9,10 +9,10 @@ from scipy import stats
 import streamlit as st
 
 _THIS_DIR = Path(__file__).resolve().parent
-_ROOT = _THIS_DIR.parent.parent
+_ROOT = _THIS_DIR.parent.parent.parent
 sys.path.insert(0, str(_ROOT))
 
-from ui.app import load_sample_evals, load_style, get_confidence_color, confidence_badge
+from src.ui.app import load_sample_evals, load_style, get_confidence_color, confidence_badge
 
 load_style()
 

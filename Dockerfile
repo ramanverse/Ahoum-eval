@@ -25,7 +25,7 @@ RUN python -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
 # Install Python deps using lean CPU-only requirements (avoids ~650MB CUDA libs)
-COPY requirements-docker.txt .
+COPY docker/requirements-docker.txt .
 RUN pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements-docker.txt
 
@@ -64,8 +64,6 @@ WORKDIR /app
 
 # Copy application code
 COPY src/       ./src/
-COPY api/       ./api/
-COPY ui/        ./ui/
 COPY config.yaml .
 
 # Copy pre-generated data (avoids rebuilding inside container)
@@ -93,7 +91,7 @@ EXPOSE 8501
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
     CMD curl --fail http://localhost:8501/_stcore/health || exit 1
 
-CMD ["streamlit", "run", "ui/app.py", \
+CMD ["streamlit", "run", "src/ui/app.py", \
      "--server.port=8501", \
      "--server.address=0.0.0.0", \
      "--server.headless=true", \
@@ -112,7 +110,7 @@ EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=10s --start-period=20s --retries=3 \
     CMD curl --fail http://localhost:8080/health || exit 1
 
-CMD ["uvicorn", "api.main:app", \
+CMD ["uvicorn", "src.api.main:app", \
      "--host", "0.0.0.0", \
      "--port", "8080", \
      "--workers", "2", \

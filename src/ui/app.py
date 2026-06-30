@@ -15,7 +15,7 @@ from pathlib import Path
 import streamlit as st
 
 _THIS_DIR = Path(__file__).resolve().parent
-_ROOT = _THIS_DIR.parent
+_ROOT = _THIS_DIR.parent.parent
 sys.path.insert(0, str(_ROOT))
 
 # ---------------------------------------------------------------------------

@@ -17,7 +17,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from api.routes import router as scoring_router
+from src.api.routes import router as scoring_router
 from src.utils import load_config
 
 app = FastAPI(

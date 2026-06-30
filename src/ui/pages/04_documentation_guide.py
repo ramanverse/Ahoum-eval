@@ -6,10 +6,10 @@ import pandas as pd
 import streamlit as st
 
 _THIS_DIR = Path(__file__).resolve().parent
-_ROOT = _THIS_DIR.parent.parent
+_ROOT = _THIS_DIR.parent.parent.parent
 sys.path.insert(0, str(_ROOT))
 
-from ui.app import load_facets_config, load_style
+from src.ui.app import load_facets_config, load_style
 
 load_style()
 

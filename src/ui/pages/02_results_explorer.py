@@ -8,10 +8,10 @@ import plotly.graph_objects as go
 import streamlit as st
 
 _THIS_DIR = Path(__file__).resolve().parent
-_ROOT = _THIS_DIR.parent.parent
+_ROOT = _THIS_DIR.parent.parent.parent
 sys.path.insert(0, str(_ROOT))
 
-from ui.app import load_facets_config, load_sample_evals, _score_bar, load_style, confidence_badge, get_confidence_color
+from src.ui.app import load_facets_config, load_sample_evals, _score_bar, load_style, confidence_badge, get_confidence_color
 
 load_style()
 
