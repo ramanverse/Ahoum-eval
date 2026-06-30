@@ -4,7 +4,7 @@
 [![Docker Pulls](https://img.shields.io/badge/docker-ghcr.io-blue.svg?logo=docker)](https://github.com/ramanverse/Ahoum-eval/pkgs/container/Ahoum-eval-api)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python Version](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue)](requirements.txt)
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg?logo=Streamlit)](https://ahoumfacets.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg?logo=Streamlit)](https://ahoum-eval.streamlit.app/)
 [![FastAPI Docs](https://img.shields.io/badge/FastAPI-REST%20API-009688.svg?logo=FastAPI)](http://localhost:8080/docs)
 
 A production-ready, scalable, and highly configurable multi-facet conversation evaluation benchmark system that scores conversation turns and whole sessions on **300 behavioral and linguistic facets** using open-weight Large Language Models (LLMs) and advanced feature engineering.
@@ -148,7 +148,7 @@ Launch the interactive dark glassmorphism dashboard UI:
 ```bash
 streamlit run src/ui/app.py
 ```
-Open **[http://localhost:8501](http://localhost:8501)** to browse local pages, or view the live production deployment at **[https://ahoumfacets.streamlit.app/](https://ahoumfacets.streamlit.app/)**:
+Open **[http://localhost:8501](http://localhost:8501)** to browse local pages, or view the live production deployment at **[https://ahoum-eval.streamlit.app/](https://ahoum-eval.streamlit.app/)**:
 - **🏠 Home**: System overview and metrics
 - **📤 Upload & Evaluate**: Process raw conversation logs
 - **🔍 Results Explorer**: View pre-computed evaluations and individual turn analysis
