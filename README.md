@@ -273,7 +273,7 @@ Evaluate a single conversation turns-list across all 300 facets.
 
 ## 🧪 Demo Notebook
 
-Explore [notebooks/demo_evaluation_pipeline.ipynb](notebooks/demo_evaluation_pipeline.ipynb) to walk through the pipeline step-by-step with visualizations, radar plots, and category breakdowns.
+Explore [src/notebooks/demo_evaluation_pipeline.ipynb](src/notebooks/demo_evaluation_pipeline.ipynb) to walk through the pipeline step-by-step with visualizations, radar plots, and category breakdowns.
 
 ---
 
