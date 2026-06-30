@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  # -----------------------------------------------------------------------
+  # Streamlit Dashboard
+  # -----------------------------------------------------------------------
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ahoum-ui
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+      - model_cache:/app/.cache/model_cache
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-}
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # -----------------------------------------------------------------------
+  # FastAPI REST Endpoint
+  # -----------------------------------------------------------------------
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ahoum-api
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8080 --workers 2
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+      - ./config.yaml:/app/config.yaml
+      - model_cache:/app/.cache/model_cache
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-}
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    depends_on:
+      - app
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+volumes:
+  model_cache:
+    driver: local
